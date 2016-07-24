@@ -76,10 +76,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="src\index.js" />
     <Content Include="Web.config" />
+    <Content Include="webpack.config.dev.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\views\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
